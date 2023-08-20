@@ -1,0 +1,268 @@
+#AITitle {
+    margin-left: 3.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+#AITitle > p {
+    font-family: Inria;
+    font-size: 300%
+    
+}
+
+.grid-container {
+	display: grid;
+	column-gap: 3%;
+    row-gap:100px;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+    padding-top: 0%;
+}
+
+/*--------TITLE-----------------------------------*/
+
+.title {
+    color: #040362;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+/*--------GRID-ITEM-1-----------------------------*/
+.grid-item1 {
+  border: 1px solid #DCDCDC!important;
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+  width: 78%;
+  height: 500px;
+ 
+}
+
+
+.grid-item1 > p {
+	font-family: Inria;
+	font-size: 130%;
+	padding-left: 2%;
+	overflow: none;
+}
+
+/*--------GRID-ITEM-2-----------------------------*/
+
+.grid-item2 {
+  border: 1px solid #DCDCDC!important;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 78%;
+  height: 500px;
+ 
+}
+
+
+
+.grid-item2 > p {
+	font-family: Inria;
+	font-size: 130%;
+	padding-left: 2%;
+	overflow: none;
+}
+
+/*--------GRID-ITEM-3-----------------------------*/
+
+.grid-item3 {
+  border: 1px solid #DCDCDC!important;
+  display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  width: 78%;
+  height: 500px;
+ 
+}
+
+
+.grid-item3 > p {
+	font-family: Inria;
+	font-size: 130%;
+	padding-left: 2%;
+	overflow: none;
+}
+
+/*--------GRID-ITEM-4-----------------------------*/
+
+.grid-item4 {
+  border: 1px solid #DCDCDC!important;
+  display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  width: 78%;
+  height: 500px;
+ 
+}
+
+.grid-item4 > img {
+	width: 100%;
+        height: 300px
+
+}
+
+.grid-item4 > p {
+	font-family: Inria;
+	font-size: 130%;
+	padding-left: 2%;
+	overflow: none;
+}
+
+/*--------GRID-ITEM-5-----------------------------*/
+
+.grid-item5 {
+  border: 1px solid #DCDCDC!important;
+  display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  width: 78%;
+  height: 500px;
+ 
+}
+
+
+.grid-item5 > p {
+	font-family: Inria;
+	font-size: 130%;
+	padding-left: 2%;
+	overflow: none;
+}
+
+/*--------GRID-ITEM-6-----------------------------*/
+
+.grid-item6 {
+  border: 1px solid #DCDCDC!important;
+  display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  width: 78%;
+  height: 500px;
+ 
+}
+
+
+.grid-item6 > p {
+	font-family: Inria;
+	font-size: 130%;
+	padding-left: 2%;
+	overflow: none;
+}
+
+
+/*----------------OBJECT FITTING IMAGE-----------*/
+
+.grid-item1 > img,
+.grid-item2 > img,
+.grid-item3 > img,
+.grid-item4 > img,
+.grid-item5 > img,
+.grid-item6 > img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover; /* Ensures that images maintain aspect ratio and are cropped if necessary */
+}
+
+
+
+
+
+
+
+
+
+/*-------------------MEDIA QUERIES RESPONSIVE CSS-----------*/
+    
+/*---------------TEXT RESIZING-----------------*/
+
+@media only screen and (max-width: 1020px) { /*----------1020px---------*/
+  .grid-item1 > p,
+  .grid-item2 > p,
+  .grid-item3 > p,
+  .grid-item4 > p,
+  .grid-item5 > p,
+  .grid-item6 > p{
+      font-size: 18px
+  }
+    
+    
+    #FintechTitle > p {
+    font-size: 280%
+    
+}
+
+    
+    
+@media only screen and (max-width: 798px) { /*----------798px---------*/
+  .grid-item1 > p,
+  .grid-item2 > p,
+  .grid-item3 > p,
+  .grid-item4 > p,
+  .grid-item5 > p,
+  .grid-item6 > p{
+      font-size: 14px
+  }
+    
+    #FintechTitle > p {
+    font-family: Inria;
+    font-size: 250%
+    
+}
+/*---------------IMAGE RESIZING-----------------*/
+@media only screen and (max-width: 799px) { /*----------1032px---------*/
+  .grid-item1 > img,
+  .grid-item2 > img,
+  .grid-item3 > img,
+  .grid-item4 > img,
+  .grid-item5 > img,
+  .grid-item6 > img {
+      
+    width: 100%;
+	height: auto;
+	object-fit: cover;
+ 
+  }
+    
+/*---------------IMAGE RESIZING-----------------*/
+@media only screen and (max-width: 799px) { /*----------1032px---------*/
+  .grid-item1 > img,
+  .grid-item2 > img,
+  .grid-item3 > img,
+  .grid-item4 > img,
+  .grid-item5 > img,
+  .grid-item6 > img {
+      
+    width: 100%;
+	height: auto;
+	object-fit: cover;
+ 
+  }
+
+/*-------------REIZE CONTAINER SIZE-----------*/
+@media only screen and (max-width: 799px) { /*----------1032px---------*/
+  .grid-item1,
+  .grid-item2,
+  .grid-item3,
+  .grid-item4,
+  .grid-item5,
+  .grid-item6 {
+      width: 100%;
+      height: auto
+  }
+@media only screen and (max-width: 788px) {/*-----------------590px------------*/
+.grid-container {
+    row-gap: 5%;
+    padding-bottom: 10%;
+    }
+    
+#FintechTitle > p {
+     font-family: Inria;
+    font-size: 200%
+    
+}
+}
