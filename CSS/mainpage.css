@@ -16,6 +16,10 @@ p {
   padding-top: 3%;
 }
 
+.Important-container a {
+    text-decoration: none;
+}
+
 .grid-item {
   display: grid;
   text-align: center;
@@ -114,7 +118,7 @@ h2 {
     padding-top: 20%;
     padding-right: 2%;
     padding-bottom: 4%;
-	margin-bottom: 1em!important;
+	margin-bottom: 1em;
 
   }
 }
@@ -136,10 +140,10 @@ h2 {
     padding-left: 3%;
     font-family: Inria;
     font-size: 1.2em;
-    padding-top: 13!important%;
+    padding-top: 13%;
     padding-right: 2%;
     padding-bottom: 4%;
-	margin-bottom: 1em!important;
+	margin-bottom: 1em;
   }
 }
 
@@ -185,7 +189,7 @@ h2 {
     padding-top: 15%;
     padding-right: 2%;
     padding-bottom: 4%;
-	margin-bottom: 1em!important;
+	margin-bottom: 1em;
 
   }
 }
@@ -209,7 +213,7 @@ h2 {
     padding-top: 8%!important;
     padding-right: 2%;
     padding-bottom: 4%;
-	margin-bottom: 1em!important;
+	margin-bottom: 1em;
   }
 }
 
@@ -234,19 +238,20 @@ h2 {
     padding-top: 7%!important;
     padding-right: 2%;
     padding-bottom: 4%;
-	margin-bottom: 1em!important;
+	margin-bottom: 1em;
   }
 }
 
 
 
-@media only screen and (max-width: 1090px) {/*----------1090px----------*/
+
+@media only screen and (max-width: 1090px) {/*----------990px----------*/
   .breakingNews > p {
     overflow: auto;
     color: white;
     padding-left: 3%;
     font-family: Inria;
-    font-size: 1.5em!important;
+    font-size: 0.8em!important;
     padding-top: 2%!important;
     padding-right: 2%;
   }
@@ -255,16 +260,19 @@ h2 {
     color: white;
     padding-left: 3%;
     font-family: Inria;
-    font-size: 0.8em!important;
-    padding-top: 8%!important;
+    font-size: 0.6em!important;
+    padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 4%;
 	margin-bottom: 1em!important;
   }
-	
+
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
+    
+    
+}
 	
 	
 /*---------------SIDE ITEM /BITCOIN CONTAINER/------------------*/
@@ -287,33 +295,6 @@ h2 {
 	font-size: 90%;
 	padding-left: 2%;
 }
-
-}
-
-
-@media only screen and (max-width: 1090px) {/*----------990px----------*/
-  .breakingNews > p {
-    overflow: auto;
-    color: white;
-    padding-left: 3%;
-    font-family: Inria;
-    font-size: 0.8em!important;
-    padding-top: 2%!important;
-    padding-right: 2%;
-  }
-  .breakingNews p:nth-of-type(2) {
-    overflow: auto;
-    color: white;
-    padding-left: 3%;
-    font-family: Inria;
-    font-size: 0.7em!important;
-    padding-top: 8%!important;
-    padding-right: 2%;
-    padding-bottom: 4%;
-	margin-bottom: 1em!important;
-  }
-}
-
 
 
 /*-----------------------COLLASPED BANNER-----------------------------*/

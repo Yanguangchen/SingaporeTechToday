@@ -1,0 +1,26 @@
+h2 {
+    font-family: Inria;
+    font-size: 250%;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.HeadlineContainer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.Article {
+    padding-left: 13%;
+    padding-right: 13%;
+    font-family: Inria;
+    font-size: 120%
+}
+
+#p1 {
+    color: #040362;
+}
+
+
+ 

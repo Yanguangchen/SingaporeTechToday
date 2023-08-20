@@ -11,20 +11,21 @@
     
     
     <!------------B O O T S T R A P   C S S------------------->
-    <link rel="stylesheet" href="./Bootstrap_CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../Bootstrap_CSS/bootstrap.min.css">
     
     
     <!------------NAV BAR CSS--------------------------------->
-    <link rel="stylesheet" href="CSS/navbar.css">
-    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    
+    <!------------SLIDESHOW CSS------------------------------->
+    <link rel="stylesheet" href="../Articles/CSS/Slideshow.css">
 	
-	
-	<!------------MAIN PAGE CSS------------------------------->
-	<link rel="stylesheet" href="CSS/mainpage.css">
-	<link rel="stylesheet" href="CSS/mainArticle.css">
+	<!------------FINTECH --CSS------------------------------->
+	<link rel="stylesheet" href="CSS/BreakingNews.css">
     
     <!------------SCROLLBAR CSS------------------------------->
-    <link rel="stylesheet" href="CSS/scrollbar.css">
+    <link rel="stylesheet" href="../CSS/scrollbar.css">
     
     <!------------B O O T S T R A P   JQUERY----------------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -34,10 +35,10 @@
     
     
     <!------------B O O T S T R A P   JS--------------------->
-    <script src="./Bootstrap_Js/bootstrap.js"></script>
+    <script src="../Bootstrap_Js/bootstrap.js"></script>
     
     <!------------F A V E I C O N---------------------------->
-    <link rel="icon" href="Images/faveicon.png" type="image/x-icon">
+    <link rel="icon" href="../Images/faveicon.png" type="image/x-icon">
 
 
     
@@ -64,6 +65,7 @@
       Tech Today</h1>
   </a>
 </div>
+
 	
 <nav class="navbar custom-navbar text-light border-bottom data-bs-theme navbar-expand-lg bg-body-tertiary navbar-dark sticky-top hide-scrollbar">
     
@@ -80,25 +82,25 @@
       <!-------Breaking News----------->
           
         <li class="nav-item ">
-        <a class="nav-link active text-light navbar-font-Inria" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active text-light navbar-font-Inria" aria-current="page" href="../index.html">Home</a>
         </li>
           
       <!-------FINTECH----------------->
           
         <li class="nav-item">
-        <a class="nav-link text-light navbar-font-Inria" href="Fintech.html">Fintech</a>
+        <a class="nav-link text-light navbar-font-Inria" href="../Fintech.html">Fintech</a>
         </li>
           
       <!-------A.I---------------------->
           
         <li class="nav-item">
-        <a class="nav-link text-light navbar-font-Inria" href="Artificial%20Intelligence.html">Artificial Intelligence</a>
+        <a class="nav-link text-light navbar-font-Inria" href="../Artificial%20Intelligence.html">Artificial Intelligence</a>
         </li>
 		  
 		  
 	  <!-------REVIEWS---------------------->  
         <li class="nav-item ">
-        <a class="nav-link text-light navbar-font-Inria" href="Reviews.html">Reviews</a>
+        <a class="nav-link text-light navbar-font-Inria" href="../Reviews.html">Reviews</a>
         </li>
 		  
 
@@ -129,83 +131,98 @@
 	
 <div>
  <!----------------Main Body-------------------------->
-	
-	
-<div class="Important-container">
+<div class="HeadlineContainer">
+<strong><h2>Microsoft Shares Plummet 30% in Unexpected Downturn: Investors and analysts left stunned</h2></strong>
+</div>
 
-  <a href="Articles/BreakingNews.html">
-  <div class="breakingNews">
-	  <h2>Breaking News</h2>
-	  <p>"Microsoft Shares Plummet 30% in Unexpected Downturn: Investors and Analysts Left Stunned"</p>
-      <p>Microsoft's fictional new CEO, Jane Doe, announced a hypothetical strategy shift that would see the company abandon its well-established cloud computing </p>
+<div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../Images/Bank.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
   </div>
-    </a>
-  
-  <div class="column-container">
-    <a href="Articles/BreakingNews.html">
-    <div id="breaking-img">
-      <img src="./Images/Microsoft-HQ.jpeg" alt="Microsoft HQ">
-    </div>
-      </a>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../Images/AI-circuit.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../Images/Bank.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div id="dotPos" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
     
-    <div class="SideItem">
-		<img src="Images/BTC.jpg">
-        <p>Spot Bitcoin ETF to be listed on NASDAQ says Security Exchange Commission SEC</p>
-    </div>
-  </div> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="Author">
+
+</div>
+    
+<div class="Article">
+    
+    <strong><p id="p1">Redmond, WA - In a stunning turn of events, Microsoft Corporation's shares plummeted by 30% yesterday, leaving investors and analysts both baffled and alarmed. This unprecedented drop wiped out nearly $300 billion in market capitalization, and it is being described as one of the most unexpected financial downturns in recent history.</p></strong>
+    
+    <p id="p2">
+    <br>
+    
+    Microsoft, a global leader in software, hardware, and cloud computing, has been on a steady growth trajectory for the past several years. Its cloud platform, Azure, along with other innovative products and services, has been driving revenue and profits consistently.
+
+    The company's share price reached an all-time high just last week, which makes this sudden nosedive all the more shocking.
+        
+    Investors and analysts were left reeling from the shock of this sudden downturn. Prominent investment firms have issued urgent advisories to their clients, and market experts have been analyzing the situation around the clock.
+
+    John Doe, a senior analyst at XYZ Capital, expressed his disbelief: "This is unprecedented. Microsoft has been a stable and promising stock for years, and this sudden drop is completely out of the blue."
+    </p>
+    
+    
+    <p id="p3">
+    Microsoft's spokesperson issued a brief statement, acknowledging the unusual market activity and assuring that the company is actively investigating the matter. "We are working closely with financial regulators to understand the cause of this unexpected movement in our stock price. We will communicate further as we have more information."
+    </p>
+    
+    <p id="p4">
+    The sudden plunge in Microsoft's shares has caused ripples across the global market, leading to increased volatility in tech stocks. Investors are keeping a close eye on developments, and regulatory authorities are expected to launch a full-scale investigation.
+
+    Whether this is a mere blip or a sign of underlying issues within the company remains to be seen. What is clear, however, is that this unexpected downturn will be a case study for financial experts for years to come, as they dissect and analyze what went wrong with one of the most reliable stocks in the market.
+
+     <br>
+    Note: This article is fictional and is intended solely for illustrative purposes. It does not represent actual events or individuals. Always consult with financial professionals for real investment advice.
+    </p>
+    
+</div>
+
+	 
+	 
 </div>
 	
-	
 
-	
-	 <div class="grid-container">
-	 
-	 
-	  <div class="grid-item1">
-		  <img src="Images/QC.jpg">
-          <p class="title">Quantum Computing</p>
-		  <p>Quantum CPU may soon beintegrated into everyday household computers says IBM</p>
-	  </div>
-
-
-	  <div class="grid-item2">
-          <img src="Images/google.jpg">
-          <p class="title">Artificial Intelligence</p>
-		  <p>Bard AI vs Chatgpt, which generative AI will reignsupreme</p>
-         </div>
-
-
-	  <div class="grid-item3">
-          <img src="Images/iphone.jpg">
-          <p class="title">Gadgets</p>
-		  <p>Why Iphones sales are sluggish suggest lack of new features and high price tag</p>
-         </div>
-
-
-	  <div class="grid-item4">
-          <img src="Images/Servers.jpg">
-          <p class="title">Commentary</p>
-		  <p>Microsoft Azure vs Amazon AWS, which has the best price to performance ratio?</p>
-         </div>
-
-
-	  <div class="grid-item5">
-          <img src="Images/Data%20Centre.jpg">
-          <p class="title">Networking</p>
-		  <p>How will the newSEA-ME-WE3 deep sea internet cable disruption impact globalnetwork infrastructure </p>
-         </div>
-
-
-	  <div class="grid-item6">
-          <img src="Images/GPU.jpg">
-          <p class="title">Gadgets</p>
-		  <p>RTX 4090 Bringing game changing ray trace performance to the game? or a fast cash grab?</p>
-         </div>
-	 
-	 
-	</div>
-	
-</div>
     
     
     
@@ -237,7 +254,7 @@
         
         <div class="col-7 col-md-2 mb-3 footer-logo">
 
-        <img src="Images/Logo.png">
+        <img src="../Images/Logo.png">
         </div>
         
         
