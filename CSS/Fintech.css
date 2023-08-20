@@ -18,6 +18,12 @@
 	grid-template-columns: auto auto auto;
 	justify-items: center;
     padding-top: 0%;
+    text-decoration: none !important;
+
+}
+
+.grid-container > a {
+    text-decoration: none !important;
 }
 
 /*--------TITLE-----------------------------------*/
@@ -29,131 +35,45 @@
     padding-bottom: 3%;
 }
 
-/*--------GRID-ITEM-1-----------------------------*/
+/*--------GRID-ITEM-----------------------------*/
 .grid-item1 {
-  border: 1px solid #DCDCDC!important;
+  border: 1px solid #DCDCDC;
   display: flex;
   flex-direction: column;
   align-items: left; 
   width: 78%;
   height: 500px;
- 
 }
 
 
-.grid-item1 > p {
-	font-family: Inria;
-	font-size: 130%;
-	padding-left: 2%;
-	overflow: none;
-}
-
-/*--------GRID-ITEM-2-----------------------------*/
-
-.grid-item2 {
-  border: 1px solid #DCDCDC!important;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  width: 78%;
-  height: 500px;
- 
-}
-
-
-
-.grid-item2 > p {
-	font-family: Inria;
-	font-size: 130%;
-	padding-left: 2%;
-	overflow: none;
-}
-
-/*--------GRID-ITEM-3-----------------------------*/
-
-.grid-item3 {
-  border: 1px solid #DCDCDC!important;
-  display: flex;
-  flex-direction: column; 
-  align-items: left; 
-  width: 78%;
-  height: 500px;
- 
-}
-
-
-.grid-item3 > p {
-	font-family: Inria;
-	font-size: 130%;
-	padding-left: 2%;
-	overflow: none;
-}
-
-/*--------GRID-ITEM-4-----------------------------*/
-
-.grid-item4 {
-  border: 1px solid #DCDCDC!important;
-  display: flex;
-  flex-direction: column; 
-  align-items: left; 
-  width: 78%;
-  height: 500px;
- 
-}
-
-.grid-item4 > img {
-	width: 100%;
-        height: 300px
-
-}
-
-.grid-item4 > p {
-	font-family: Inria;
-	font-size: 130%;
-	padding-left: 2%;
-	overflow: none;
-}
-
-/*--------GRID-ITEM-5-----------------------------*/
-
-.grid-item5 {
-  border: 1px solid #DCDCDC!important;
-  display: flex;
-  flex-direction: column; 
-  align-items: left; 
-  width: 78%;
-  height: 500px;
- 
-}
-
-
-.grid-item5 > p {
-	font-family: Inria;
-	font-size: 130%;
-	padding-left: 2%;
-	overflow: none;
-}
-
-/*--------GRID-ITEM-6-----------------------------*/
-
-.grid-item6 {
-  border: 1px solid #DCDCDC!important;
-  display: flex;
-  flex-direction: column; 
-  align-items: left; 
-  width: 78%;
-  height: 500px;
- 
-}
-
-
+.grid-item1 > p,
+.grid-item2 > p,
+.grid-item3 > p,
+.grid-item4 > p,
+.grid-item5 > p,
 .grid-item6 > p {
 	font-family: Inria;
 	font-size: 130%;
 	padding-left: 2%;
 	overflow: none;
+    color: black;
+
 }
 
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6  {
+      border: 1px solid #DCDCDC!important;
+      display: flex;
+      flex-direction: column; 
+      align-items: left; 
+      width: 78%;
+      height: 500px;
+
+}
 
 /*----------------OBJECT FITTING IMAGE-----------*/
 
@@ -167,9 +87,6 @@
 	height: 300px;
 	object-fit: cover; /* Ensures that images maintain aspect ratio and are cropped if necessary */
 }
-
-
-
 
 
 

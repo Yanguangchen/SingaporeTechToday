@@ -83,6 +83,7 @@ h2 {
   border: 1px solid #DCDCDC;
   width: 78%;
   height: 85%;
+  text-decoration: none !important;
 }
 
 
@@ -92,8 +93,10 @@ h2 {
 
 .SideItem > p {
 	font-family: Inria;
-	font-size: 120%;
+	font-size: 110% !important;
 	padding-left: 2%;
+    color: black;
+
 }
 
 /*----------------------------------RESPONSIVE TEXT--------------------*/
