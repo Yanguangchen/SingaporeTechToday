@@ -73,15 +73,15 @@ h2 {
   display: grid;
   grid-template-columns: 60% 40%;
   column-gap: 2.125em;
+  margin-right: 3%;
 }
 
 /*---------------SIDE ITEM /BITCOIN CONTAINER/------------------*/
 .SideItem {
   display: flex;
   flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
   border: 1px solid #DCDCDC;
-  width: 78%;
+  width: 100%;
   height: 85%;
   text-decoration: none !important;
 }
@@ -93,12 +93,19 @@ h2 {
 
 .SideItem > p {
 	font-family: Inria;
-	font-size: 110% !important;
+	font-size: 90% !important;
 	padding-left: 2%;
     color: black;
 
 }
 
+
+#annoying-container {
+	margin: 0 !important;
+	width: 90%;
+    height: auto;
+	margin-right: 3%
+}
 /*----------------------------------RESPONSIVE TEXT--------------------*/
 
 @media only screen and (max-width: 1879px) {/*----------1869px---------*/
@@ -275,28 +282,6 @@ h2 {
 	}
     
     
-}
-	
-	
-/*---------------SIDE ITEM /BITCOIN CONTAINER/------------------*/
-.SideItem {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  border: 1px solid #DCDCDC;
-  width: 78%;
-  height: 85%;
-}
-
-
-.SideItem > img {
-	width: 100%;
-}
-
-.SideItem > p {
-	font-family: Inria;
-	font-size: 90%;
-	padding-left: 2%;
 }
 
 
