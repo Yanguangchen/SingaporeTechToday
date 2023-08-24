@@ -8,22 +8,18 @@
     <title>Singapore Tech Today</title>
 
     <!------------B O O T S T R A P   C S S------------------->
-    <link rel="stylesheet" href="./Bootstrap_CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Bootstrap_CSS/bootstrap.min.css" />
 
     <!------------NAV BAR CSS--------------------------------->
-    <link rel="stylesheet" href="CSS/navbar.css" />
-    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
 
-    <!------------AI--------CSS------------------------------->
-    <link rel="stylesheet" href="CSS/AI.css" />
+    <!------------LOGIN.CSS----------------------------------->
+    <link rel="stylesheet" href="CSS/LogIn.css" />
 
     <!------------SCROLLBAR CSS------------------------------->
-    <link rel="stylesheet" href="CSS/scrollbar.css" />
-    <link rel="stylesheet" href="Articles/CSS/blinker.css" />
-
-    <!------------STOCKTICKER--------------------------------->
-    <scrip src="JS/StockTicker.js"></scrip>
-    <link rel="stylesheet" href="CSS/StockTicker.css" />
+    <link rel="stylesheet" href="../CSS/scrollbar.css" />
+    <link rel="stylesheet" href="../Articles/CSS/blinker.css" />
 
     <!------------B O O T S T R A P   JQUERY----------------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -32,7 +28,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 
     <!------------B O O T S T R A P   JS--------------------->
-    <script src="./Bootstrap_Js/bootstrap.js"></script>
+    <script src="../Bootstrap_Js/bootstrap.min.js"></script>
 
     <!------------F A V E I C O N---------------------------->
     <link rel="icon" href="Images/faveicon.png" type="image/x-icon" /></head
@@ -41,7 +37,7 @@
   <body>
     <!-----------------------------NAVIGATION BAR------------------------------------>
     <div class="topnav">
-      <a class="active" href="AccountPages/LogIn.html">Sign in</a>
+      <a class="active" href="LogIn.html">Sign in</a>
       <a href="#">Search</a>
       <a href="#">Subscribe</a>
     </div>
@@ -79,7 +75,7 @@
               <a
                 class="nav-link active text-light navbar-font-Inria"
                 aria-current="page"
-                href="index.html"
+                href="../index.html"
                 >Home</a
               >
             </li>
@@ -89,7 +85,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light navbar-font-Inria"
-                href="Fintech.html"
+                href="../Fintech.html"
                 >Fintech</a
               >
             </li>
@@ -99,7 +95,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light navbar-font-Inria"
-                href="Artificial%20Intelligence.html"
+                href="../Artificial%20Intelligence.html"
                 >Artificial Intelligence</a
               >
             </li>
@@ -108,7 +104,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light navbar-font-Inria"
-                href="Reviews.html"
+                href="../Reviews.html"
                 >Reviews</a
               >
             </li>
@@ -139,127 +135,67 @@
           </ul>
           <!---------------End of all navbar buttons------------------>
         </div>
+        <div>
+          <div class="Form"></div>
+        </div>
       </div>
     </nav>
     <!---------END OF NAVBAR------------------------------------------------>
-    <a href="BreakingNews.html">
-      <div class="BreakingNewsBanner">
-        <div class="Live">
-          <p>⚪ LIVE</p>
-        </div>
+    
+      
+      
+      
+      
+      
+      <div class="loginPage">
+      <h2>Welcome Readers</h2>
 
-        <div class="BreakingNews">
-          <p>
-            Updates Incoming Live: <br />
-            Microsoft Shares Plummet 30% in Unexpected Downturn: Investors and
-            Analysts Left Stunned
-          </p>
-        </div>
-      </div>
-    </a>
-    <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright"></div>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</button>
 
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
-        async
-      ></script>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+      
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../Images/Avatar.png" alt="Avatar" class="avatar">
     </div>
-    <!-- TradingView Widget END -->
 
-    <div>
-      <!----------------Main Body-------------------------->
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
 
-      <div id="AITitle">
-        <p>Artificial Intelligence</p>
-      </div>
-
-      <div class="grid-container">
-        <div class="grid-item1">
-          <img src="Images/QC.jpg" />
-          <p class="title">Quantum Computing</p>
-          <p>
-            Is Quantum Computing the next frontier for Artificial Intelligence
-            to conquer?
-          </p>
-        </div>
-
-        <div class="grid-item2">
-          <img src="Images/GPU.jpg" />
-          <p class="title">Data Processing</p>
-          <p>
-            How the next generation of Nvidia Graphics Processing Units can
-            power the next generation of Computer Vision machine learning
-          </p>
-        </div>
-
-        <div class="grid-item3">
-          <img src="Images/Rover.jpg" />
-          <p class="title">Robotics</p>
-          <p>
-            NASA reveals that it uses Artificial Intelligence to automate Mars
-            rover operations
-          </p>
-        </div>
-
-        <div class="grid-item4">
-          <img src="Images/Servers.jpg" />
-          <p class="title">Research</p>
-          <p>
-            100 Million Tera-flops of computational power required to create a
-            true sentient AI, says John Von Neumann
-          </p>
-        </div>
-
-        <div class="grid-item5">
-          <img src="Images/University.jpg" />
-          <p class="title">Research</p>
-          <p>
-            Havard University computer science graduates increased by 46% Yoy as
-            the tech sector gets boost from AI
-          </p>
-        </div>
-
-        <div class="grid-item6">
-          <img src="Images/Iphone.jpg" />
-          <p class="title">Commentary</p>
-          <p>
-            How will chatgpt change our lives now that we can access it from our
-            pockets: a social commentary
-          </p>
-        </div>
-
-        <div class="grid-item6">
-          <img src="Images/Solidity.png" />
-          <p class="title">Development</p>
-          <p>
-            How developers can leverage Artificial Intelligence to help increase
-            productivity and efficiency
-          </p>
-        </div>
-
-        <div class="grid-item6">
-          <img src="Images/AI-circuit.jpg" />
-          <p class="title">Artifical Intelligence</p>
-          <p>
-            Human or AI generated? How to tell if someone's work has been
-            processed by AI or Machine Learning
-          </p>
-        </div>
-
-        <div class="grid-item6">
-          <img src="Images/Hands.jpg" />
-          <p class="title">Investments</p>
-          <p>
-            Dawn of robo-invest. Algorithmic and AI powered portfolio managers
-            beats traditional human portfolio managers by 50% in ROI.
-          </p>
-        </div>
-      </div>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
     </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </div>
+      
+      
+      
+      
 
     <!-----------------------FOOTER----------------------------------------->
 
@@ -267,7 +203,7 @@
       <footer class="py-5 footer">
         <div class="row footer-align justify-content-end">
           <div class="col-7 col-md-2 mb-3 footer-logo">
-            <img src="Images/Logo.png" />
+            <img src="../Images/Logo.png" />
           </div>
 
           <div class="col-6 col-md-2 mb-3 sub">
@@ -348,8 +284,7 @@
                 <a
                   href="#"
                   class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >About</a
-                >
+                  >About</a>
               </li>
             </ul>
           </div>

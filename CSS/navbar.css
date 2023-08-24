@@ -1,4 +1,3 @@
-
 /*__________Top Nav, on top of banner______________________*/
 
 #banner a {
@@ -7,11 +6,9 @@
   display: block; /* Makes the link occupy the full container */
 }
 
-
-
 /*-------------Navbar Coloring------------*/
 .topnav {
-  background-color: #040362!important;
+  background-color: #040362 !important;
   overflow: hidden;
 }
 
@@ -25,24 +22,18 @@
   font-family: Inria serif;
   font-size: 100%;
   overflow: hidden;
-
 }
-
 
 .topnav a:hover {
-  background-color: #FAFF00;
+  background-color: #faff00;
   color: #040362;
-
 }
-
-
 
 /*--------Responsive Functions-----------------------------*/
 
-
 /*-----------------1440p-----------------------------------*/
 
-@media screen and (max-width: 1440px) { 
+@media screen and (max-width: 1440px) {
   .topnav a {
     padding: 10px 5px;
     font-size: 90%;
@@ -50,7 +41,7 @@
 }
 
 /*----------------ipad Mini------------------------------*/
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .topnav a {
     padding: 10px 5px;
     font-size: 80%;
@@ -62,167 +53,144 @@
   .topnav a {
     font-size: 70%;
     float: none;
-    padding: 10%
+    padding: 10%;
   }
 }
-
-
-
-
 
 /*___________Banner, on top of Navbar_______*/
 
 #banner {
-	height: 125px;
-	background: #040362;
-	justify-items: right;
-    padding-bottom: 7%
+  height: 125px;
+  background: #040362;
+  justify-items: right;
+  padding-bottom: 7%;
 }
 
 h1 {
-	
-	color: #FAFF00;
-	
-	/*-----Paddings-----*/
-	
-	padding-top: 0%;
-	padding-right: 6%;
-	padding-bottom: 0%;
-	margin-bottom: 0%;
-	
-	/*-----Positioning-*/
-	
-	overflow: hidden;
-	text-align: right;
-	
-	/*-----Formatting-*/
-	
-	font-family: Inria Serif;
-	font-size: 3.20em; 
-	font-weight: 100;
-	font-style: normal;
-	line-height: normal;
+  color: #faff00;
 
+  /*-----Paddings-----*/
+
+  padding-top: 0%;
+  padding-right: 6%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+
+  /*-----Positioning-*/
+
+  overflow: hidden;
+  text-align: right;
+
+  /*-----Formatting-*/
+
+  font-family: Inria Serif;
+  font-size: 3.2em;
+  font-weight: 100;
+  font-style: normal;
+  line-height: normal;
 }
 
 /*-----------------1440p-----------------------------------*/
 @media screen and (max-width: 1440px) {
   h1 {
-    
-    font-size: 2.60em;
-
+    font-size: 2.6em;
   }
 }
-
 
 /*----------------ipad Mini------------------------------*/
 @media screen and (max-width: 768px) {
   h1 {
-    
-    font-size: 2.50em;
-    text-align: center
+    font-size: 2.5em;
+    text-align: center;
   }
 }
 
 /*----------------Iphone SE------------------------------*/
 @media screen and (max-width: 378px) {
   h1 {
-    
-    font-size: 2.50em;
-    text-align: center
+    font-size: 2.5em;
+    text-align: center;
   }
 }
-
-
 
 /*_____________Navbar Coloring-------------------*/
 
 .custom-navbar {
-  background-color: #020148!important;    
+  background-color: #020148 !important;
+    z-index: 0;
 }
 
 .nav-item .nav-link {
-    padding-right: 40px!important;
-    padding-left: 40px!important;/* This applies the same padding to all four sides (top, right, bottom, left) */
+  padding-right: 40px !important;
+  padding-left: 40px !important; /* This applies the same padding to all four sides (top, right, bottom, left) */
 }
 /*--------------Navbar Hover---------------------*/
 
 .nav-item .nav-link:hover {
-    color: #FAFF00!important;  /* Set the color to whatever you like */
+  color: #faff00 !important; /* Set the color to whatever you like */
 }
 
 /*_______________Drop Down Button________________*/
 
-
 .transparent-bg {
-    background-color: transparent; /* to make bg clear */
+  background-color: transparent; /* to make bg clear */
 }
-
 
 .dropdown .btn-secondary {
-  border: none !important;  /* to remove border */
+  border: none !important; /* to remove border */
 }
-
 
 @media screen and (max-width: 991px) {
   .dropdown {
-    text-align: center
+    text-align: center;
   }
 }
 
 /*-------------Hover Effects for Dropdown items---*/
 
 .dropdown-toggle:hover {
-    color: #FAFF00!important; 
-    background: #020148!important;
-    
+  color: #faff00 !important;
+  background: #020148 !important;
 }
 
 .dropdown-toggle:active {
-    color: #FAFF00!important;
-    background: #020148!important;
+  color: #faff00 !important;
+  background: #020148 !important;
 }
 
 .dropdown-toggle:focus {
-    color: #FAFF00!important;
-    background: #020148!important;
+  color: #faff00 !important;
+  background: #020148 !important;
 }
 
-
 .nav-item .nav-link {
-    border-right: 1px solid #eeeee4; 
+  border-right: 1px solid #eeeee4;
 }
 
 @media screen and (max-width: 991px) {
-	
-	.nav-item .nav-link {
-    border-right: none; 
-	}
-		
-	}
+  .nav-item .nav-link {
+    border-right: none;
+  }
+}
 
-.dropdown{
-    padding-left: 30px;
+.dropdown {
+  padding-left: 30px;
 }
 
 /*_______________Font Formatting______________________________________________*/
 
-
 .navbar-font-Inria {
-	font-family: Inria serif;
-	font-size: 100%;
-	font-weight: 100;
+  font-family: Inria serif;
+  font-size: 100%;
+  font-weight: 100;
 }
-
-
 
 /*-----------------1440p-----------------------------------*/
 
 @media screen and (max-width: 1440px) {
   .navbar-font-Inria {
-    
     font-size: 100%;
-    text-align: center
+    text-align: center;
   }
 }
 
@@ -230,9 +198,8 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .navbar-font-Inria {
-    
     font-size: 100%;
-    text-align: center
+    text-align: center;
   }
 }
 
@@ -240,22 +207,20 @@ h1 {
 
 @media screen and (max-width: 378px) {
   .navbar-font-Inria {
-    
     font-size: 85%;
-    text-align: center
+    text-align: center;
   }
 }
 
 #test > p {
-    height: 3000px;
+  height: 3000px;
 }
 
 #space {
-    height: 800px;
+  height: 800px;
 }
 
-
 a {
-    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
-    text-decoration: none;
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none;
 }

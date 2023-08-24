@@ -1,42 +1,46 @@
 /*-----------------BREAKING NEWS BANNER-----*/
 
 a {
-    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
-    text-decoration: none;
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none;
 }
 
 .BreakingNewsBanner {
-	display: grid;
-	grid-template-columns: 10% 90%;
-	column-gap: 3%;
-	background: #730000;
-	font-family: Inria;
-    font-size: 130%;
-	color: white;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  column-gap: 3%;
+  background: #730000;
+  font-family: Inria;
+  font-size: 130%;
+  color: white;
 }
 
 .BreakingNews > p {
-    text-align: left !important;
-    margin-left: 1%;
+  text-align: left !important;
+  margin-left: 1%;
 }
-
 
 .BreakingNews {
-    border-left: solid white 1px;
-    padding-top: 1%;
-	width: 90%
+  border-left: solid white 1px;
+  padding-top: 1%;
+  width: 90%;
 }
 
-
 .Live > p {
-    text-align: right;
-    padding-top: 17%;
-    animation: blinker 1s infinite;
-    font-family: monospace
+  text-align: right;
+  padding-top: 17%;
+  animation: blinker 1s infinite;
+  font-family: monospace;
 }
 
 @keyframes blinker {
-  0%   { opacity: 0; }
-  50%  { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
