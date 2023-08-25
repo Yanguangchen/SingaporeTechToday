@@ -1,0 +1,76 @@
+.grid-container {
+  display: grid;
+  column-gap: 3%;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
+}
+
+.grid-item {
+  width: 100%;
+  border-style: solid;
+  border-color: #dcdcdc;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
+
+#Product1,
+#Product2,
+#Product3 {
+  font-family: Inria;
+  font-size: 200%;
+  color: #040362;
+  border-color: #dcdcdc;
+}
+
+.select {
+  width: 50%;
+  font-family: Inria;
+  color: #faff00;
+  background: #040362;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 200%;
+}
+
+.select p:hover {
+  color: #040362;
+  background: #faff00;
+}
+
+.ProductDetails {
+  font-family: Inria;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 333%;
+  font-family: Inria;
+  color: white;
+  position: relative;
+  top: 400px;
+  z-index: 1;
+}
+
+h2:hover {
+  background: #faff00;
+  color: #040362;
+}
+
+.Video-container {
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.totalcontainer {
+    padding: 0;
+    margin: 0;
+}
