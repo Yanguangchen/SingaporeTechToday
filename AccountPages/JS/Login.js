@@ -11,7 +11,6 @@ function Success() {
 }
 
 function CreateAcc() {
-
   //Create Account Button
   document.getElementById("createAccount").innerHTML =
     "Please fill in your details";
@@ -20,7 +19,6 @@ function CreateAcc() {
   document.getElementById("createAccount").style.background = "green";
   //change button to wider on click
   document.getElementById("createAccount").style.width = "100%";
-
 
   //Loads Account Creation Form On Click
   var formHtml = `
@@ -40,7 +38,7 @@ function CreateAcc() {
   document.getElementById("formContainer").innerHTML = formHtml;
 }
 
-  //Alert user that account has been created
+//Alert user that account has been created
 function Prompt() {
   alert("Your account has been created");
 }
