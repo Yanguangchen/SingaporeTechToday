@@ -51,26 +51,77 @@
 h2 {
   width: 100%;
   text-align: center;
-  font-size: 333%;
+  font-size: 300%;
   font-family: Inria;
-  color: white;
-  position: relative;
-  top: 400px;
+  color: #040362;
   z-index: 1;
 }
 
-h2:hover {
-  background: #faff00;
-  color: #040362;
+h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.Video-container {
-    z-index: -1;
-    width: 100%;
-    height: auto;
+#details {
+  font-family: Inria;
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 3%;
+  opacity: 60%;
 }
 
-.totalcontainer {
-    padding: 0;
-    margin: 0;
+#GPU {
+  z-index: -1;
+  scale: 0.3;
+  position: relative;
+  bottom: 200%;
+  right: 60%;
+  transform: rotate(310deg);
+  animation: gpu 5s infinite;
+}
+
+@keyframes gpu {
+  0% {
+    margin-top: 0px;
+    transform: rotate(310deg);
+  }
+
+  50% {
+    margin-top: 50px;
+    transform: rotate(330deg);
+  }
+
+  100% {
+    margin-top: 0px;
+    transform: rotate(310deg);
+  }
+}
+
+#AI {
+  z-index: 0;
+  scale: 0.3;
+  position: relative;
+  bottom: 220%;
+  left: 120%;
+  animation: AI 5s infinite;
+}
+
+@keyframes AI {
+  0% {
+    transform: rotate(310deg);
+
+  }
+
+  50% {
+    transform: rotate(330deg);
+  }
+
+  100% {
+    transform: rotate(310deg);
+
+  }
 }
