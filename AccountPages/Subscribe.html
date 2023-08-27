@@ -1,307 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!------------------------------------------------------>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Singapore Tech Today</title>
 
-    <!------------B O O T S T R A P   C S S------------------->
-    <link rel="stylesheet" href="../Bootstrap_CSS/bootstrap.min.css" />
+<head>
+  <!------------------------------------------------------>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Singapore Tech Today</title>
 
-    <!------------NAV BAR CSS--------------------------------->
-    <link rel="stylesheet" href="../CSS/navbar.css" />
-    <link rel="stylesheet" href="../CSS/footer.css" />
+  <!------------B O O T S T R A P   C S S------------------->
+  <link rel="stylesheet" href="../Bootstrap_CSS/bootstrap.min.css" />
 
-    <!------------SUBSCRIBE.CSS----------------------------------->
-    <link rel="stylesheet" href="CSS/Subscribe.css" />
+  <!------------NAV BAR CSS--------------------------------->
+  <link rel="stylesheet" href="../CSS/navbar.css" />
+  <link rel="stylesheet" href="../CSS/footer.css" />
 
-    <!------------SCROLLBAR CSS------------------------------->
-    <link rel="stylesheet" href="../CSS/scrollbar.css" />
-    <link rel="stylesheet" href="../Articles/CSS/blinker.css" />
+  <!------------SUBSCRIBE.CSS----------------------------------->
+  <link rel="stylesheet" href="CSS/Subscribe.css" />
 
-    <!------------B O O T S T R A P   JQUERY----------------->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!------------SUBSCRIBE. JS----------------------------------->
+  <script src="JS/Subscribe.js"></script>
 
-    <!------------P O P P E R         JS-------------------->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <!------------SCROLLBAR CSS------------------------------->
+  <link rel="stylesheet" href="../CSS/scrollbar.css" />
+  <link rel="stylesheet" href="../Articles/CSS/blinker.css" />
 
-    <!------------B O O T S T R A P   JS--------------------->
-    <script src="../Bootstrap_Js/bootstrap.min.js"></script>
+  <!------------B O O T S T R A P   JQUERY----------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    <!------------F A V E I C O N---------------------------->
-    <link rel="icon" href="Images/faveicon.png" type="image/x-icon" />
-  </head>
-  <!------------------------------------------------------->
+  <!------------P O P P E R         JS-------------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 
-  <body>
-    <!-----------------------------NAVIGATION BAR------------------------------------>
-    <div class="topnav">
-      <a class="active" href="Login.html">Sign in</a>
-      <a href="#">Search</a>
-      <a href="#">Subscribe</a>
-    </div>
+  <!------------B O O T S T R A P   JS--------------------->
+  <script src="../Bootstrap_Js/bootstrap.min.js"></script>
 
-    <div id="banner">
-      <a href="index.html">
-        <h1>
-          Singapore
-          <br />
-          Tech Today
-        </h1>
-      </a>
-    </div>
+  <!------------F A V E I C O N---------------------------->
+  <link rel="icon" href="Images/faveicon.png" type="image/x-icon" />
+</head>
+<!------------------------------------------------------->
 
-    <nav
-      class="navbar custom-navbar text-light data-bs-theme navbar-expand-lg bg-body-tertiary navbar-dark sticky-top hide-scrollbar"
-    >
-      <div class="container-fluid justify-content-center">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon bg-toggle"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-------Breaking News----------->
+<body>
+  <!-----------------------------NAVIGATION BAR------------------------------------>
+  <div class="topnav">
+    <a class="active" href="Login.html">Sign in</a>
+    <a href="#">Search</a>
+    <a href="#">Subscribe</a>
+  </div>
 
-            <li class="nav-item">
-              <a
-                class="nav-link active text-light navbar-font-Inria"
-                aria-current="page"
-                href="../index.html"
-                >Home</a
-              >
-            </li>
+  <div id="banner">
+    <a href="index.html">
+      <h1>
+        Singapore
+        <br />
+        Tech Today
+      </h1>
+    </a>
+  </div>
 
-            <!-------FINTECH----------------->
+  <nav
+    class="navbar custom-navbar text-light data-bs-theme navbar-expand-lg bg-body-tertiary navbar-dark sticky-top hide-scrollbar">
+    <div class="container-fluid justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-toggle"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-------Breaking News----------->
 
-            <li class="nav-item">
-              <a
-                class="nav-link text-light navbar-font-Inria"
-                href="../Fintech.html"
-                >Fintech</a
-              >
-            </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light navbar-font-Inria" aria-current="page" href="../index.html">Home</a>
+          </li>
 
-            <!-------A.I---------------------->
+          <!-------FINTECH----------------->
 
-            <li class="nav-item">
-              <a
-                class="nav-link text-light navbar-font-Inria"
-                href="../Artificial%20Intelligence.html"
-                >Artificial Intelligence</a
-              >
-            </li>
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-font-Inria" href="../Fintech.html">Fintech</a>
+          </li>
 
-            <!-------REVIEWS---------------------->
-            <li class="nav-item">
-              <a
-                class="nav-link text-light navbar-font-Inria"
-                href="../Reviews.html"
-                >Reviews</a
-              >
-            </li>
+          <!-------A.I---------------------->
 
-            <!-------MORE DROPDOWN BUTTON------->
-            <div class="dropdown btn-bg-transparent">
-              <a
-                class="btn btn-secondary dropdown-toggle transparent-bg navbar-font-Inria"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >More</a
-              >
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-font-Inria" href="../Artificial%20Intelligence.html">Artificial
+              Intelligence</a>
+          </li>
 
-              <!-----DROPDOWN ELEMENTS------------>
-              <div
-                class="navbar-font-Inria dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Subscribe today</a>
-                <a class="dropdown-item" href="#">Careers</a>
-                <a class="dropdown-item" href="#">FAQ</a>
-              </div>
+          <!-------REVIEWS---------------------->
+          <li class="nav-item">
+            <a class="nav-link text-light navbar-font-Inria" href="../Reviews.html">Reviews</a>
+          </li>
+
+          <!-------MORE DROPDOWN BUTTON------->
+          <div class="dropdown btn-bg-transparent">
+            <a class="btn btn-secondary dropdown-toggle transparent-bg navbar-font-Inria" href="#" role="button"
+              id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+
+            <!-----DROPDOWN ELEMENTS------------>
+            <div class="navbar-font-Inria dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Subscribe today</a>
+              <a class="dropdown-item" href="#">Careers</a>
+              <a class="dropdown-item" href="#">FAQ</a>
             </div>
+          </div>
+        </ul>
+        <!---------------End of all navbar buttons------------------>
+      </div>
+      <div>
+        <div class="Form"></div>
+      </div>
+    </div>
+  </nav>
+  <!---------END OF NAVBAR------------------------------------------------>
+  <h2>Welcome to Independent Journalism</h2>
+  <p id="details">
+    By subscribing to our platform, you are not only gaining access to
+    exclusive content, <br />in-depth features, and expert opinions on new
+    tech trends and topics <br />
+    but also actively supporting independent journalism. Your subscription
+    enables us to maintain our integrity, <br />
+    free from external pressures, ensuring that the truth always reaches you
+    in its purest form
+  </p>
+  <div class="SubPage">
+    <div class="grid-container">
+      <div class="grid-item">
+        <p id="Product1">Weekly</p>
+        <p>$10.00 SGD / Week</p>
+        <div class="ProductDetails">
+          <p>Exclusive Content</p>
+          <p>Ad-free reading</p>
+          <p>Advance Search</p>
+          <p>Family Sharing up to 2 users</p>
+        </div>
+        <div class="select" onclick="subscribed(this)">
+          <p>Select</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <p id="Product2">Monthly</p>
+        <p>$30.00 SGD / Month</p>
+        <div class="ProductDetails">
+          <p>Exclusive Content</p>
+          <p>Ad-free reading</p>
+          <p>Advance Search</p>
+          <p>Family Sharing up to 3 users</p>
+        </div>
+        <div class="select" onclick="subscribed(this)">
+          <p>Select</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <p id="Product3">Yearly</p>
+        <p>$100.00 SGD / Yearly</p>
+        <div class="ProductDetails">
+          <p>Exclusive Content</p>
+          <p>Ad-free reading</p>
+          <p>Advance Search</p>
+          <p>Family Sharing up to 6 users</p>
+        </div>
+        <div class="select" onclick="subscribed(this)">
+          <p>Select</p>
+        </div>
+      </div>
+      <img id="GPU" src="../Images/GPU.png" />
+      <img id="AI" src="../Images/AIICON.png" />
+    </div>
+  </div>
+
+  <!-----------------------FOOTER----------------------------------------->
+
+  <div class="container-fluid footer-container">
+    <footer class="py-5 footer">
+      <div class="row footer-align justify-content-end">
+        <div class="col-7 col-md-2 mb-3 footer-logo">
+          <img src="../Images/Logo.png" />
+        </div>
+
+        <div class="col-6 col-md-2 mb-3 sub">
+          <p>Subscribe Today</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">About</a>
+            </li>
           </ul>
-          <!---------------End of all navbar buttons------------------>
         </div>
-        <div>
-          <div class="Form"></div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary navbar-font-Inria">About</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>
-    <!---------END OF NAVBAR------------------------------------------------>
-    <h2>Welcome to Independent Journalism</h2>
-    <p id="details">
-      By subscribing to our platform, you are not only gaining access to
-      exclusive content, <br />in-depth features, and expert opinions on new
-      tech trends and topics <br />
-      but also actively supporting independent journalism. Your subscription
-      enables us to maintain our integrity, <br />
-      free from external pressures, ensuring that the truth always reaches you
-      in its purest form
-    </p>
-    <div class="SubPage">
-      <div class="grid-container">
-        <div class="grid-item">
-          <p id="Product1">Weekly</p>
-          <p>$10.00 SGD / Week</p>
-          <div class="ProductDetails">
-            <p>Exclusive Content</p>
-            <p>Ad-free reading</p>
-            <p>Advance Search</p>
-            <p>Family Sharing up to 2 users</p>
-          </div>
-          <div class="select">
-            <p>Select</p>
-          </div>
-        </div>
 
-        <div class="grid-item">
-          <p id="Product2">Monthly</p>
-          <p>$30.00 SGD / Month</p>
-          <div class="ProductDetails">
-            <p>Exclusive Content</p>
-            <p>Ad-free reading</p>
-            <p>Advance Search</p>
-            <p>Family Sharing up to 3 users</p>
-          </div>
-          <div class="select">
-            <p>Select</p>
-          </div>
-        </div>
-
-        <div class="grid-item">
-          <p id="Product3">Yearly</p>
-          <p>$100.00 SGD / Yearly</p>
-          <div class="ProductDetails">
-            <p>Exclusive Content</p>
-            <p>Ad-free reading</p>
-            <p>Advance Search</p>
-            <p>Family Sharing up to 6 users</p>
-          </div>
-          <div class="select">
-            <p>Select</p>
-          </div>
-        </div>
-        <img id="GPU" src="../Images/GPU.png" />
-        <img id="AI" src="../Images/AIICON.png" />
-
-
+      <div class="d-flex flex-column flex-sm-row justify-content-center py-4 navbar-font-Inria">
+        <p>© 2023 Singapore Tech Today All rights reserved.</p>
       </div>
-    </div>
+    </footer>
+  </div>
+</body>
 
-    <!-----------------------FOOTER----------------------------------------->
-
-    <div class="container-fluid footer-container">
-      <footer class="py-5 footer">
-        <div class="row footer-align justify-content-end">
-          <div class="col-7 col-md-2 mb-3 footer-logo">
-            <img src="../Images/Logo.png" />
-          </div>
-
-          <div class="col-6 col-md-2 mb-3 sub">
-            <p>Subscribe Today</p>
-          </div>
-
-          <div class="col-6 col-md-2 mb-3">
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >Features</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >Pricing</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >FAQs</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >About</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md-2 mb-3">
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >Features</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >Pricing</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >FAQs</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a
-                  href="#"
-                  class="nav-link p-0 text-body-secondary navbar-font-Inria"
-                  >About</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div
-          class="d-flex flex-column flex-sm-row justify-content-center py-4 navbar-font-Inria"
-        >
-          <p>© 2023 Singapore Tech Today All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
-  </body>
 </html>
