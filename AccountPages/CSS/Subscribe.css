@@ -5,7 +5,7 @@
   justify-items: center;
   padding-left: 10%;
   padding-right: 10%;
-  margin-bottom: 10%;
+  height: 400px;
 }
 
 .grid-item {
@@ -103,7 +103,7 @@ h2 {
 }
 
 #AI {
-  z-index: 0;
+  z-index: -1;
   scale: 0.3;
   position: relative;
   bottom: 220%;
@@ -124,4 +124,8 @@ h2 {
   100% {
     transform: rotate(310deg);
   }
+}
+
+#form {
+  
 }
