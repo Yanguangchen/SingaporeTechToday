@@ -8,6 +8,7 @@ function subscribed(clickedElement) {
   clickedElement.getElementsByTagName("p")[0].innerText = "Awaiting Payment";
 
   var formHtml = `
+  <div id="div">
     <form action="/submit" method="post">
 
         <label for="Name">Name: </label>
@@ -36,6 +37,8 @@ function subscribed(clickedElement) {
 
         <button type="submit" id="submit" onclick="Prompt()">Submit</button>
     </form>
+
+    <div>
 `;
   //initialize form in DOM
   document.getElementById("form").innerHTML = formHtml;
@@ -43,6 +46,42 @@ function subscribed(clickedElement) {
   //Style form in DOM
   document.getElementById("form").style.textAlign = "center";
 
-  
+  //Style the from font
+  document.getElementById("form").style.fontFamily = "Inria";
+  document.getElementById("form").style.color = "white";
+  document.getElementById("form").style.fontSize = "120%";
 
+
+
+  //Style the from border
+  document.getElementById("form").style.borderStyle = "solid";
+
+  //Style the from width
+  document.getElementById("form").style.width = "aut0";
+
+  //Style the padding
+  document.getElementById("form").style.paddingTop = "2%";
+  document.getElementById("form").style.paddingBottom = "2%";
+
+  document.getElementById("div").style.background = "#040362";
+  document.getElementById("div").style.marginLeft = "30%";
+  document.getElementById("div").style.width = "40%";
+
+
+  // Select all labels within the form
+  const labels = document.querySelectorAll("form label");
+
+  // Select the form and apply grid styles
+  const form = document.querySelector("form");
+  form.style.display = "grid";
+  form.style.gridTemplateRows = "auto auto auto auto auto";
+  form.style.gap = "10px";
+
+  // Iterate over the NodeList and apply styles
+  labels.forEach((label, index) => {
+    if (index === 0) {
+      label.style.paddingTop = "3%";
+    }
+
+  });
 }
