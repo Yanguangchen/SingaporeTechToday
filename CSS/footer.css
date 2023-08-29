@@ -6,6 +6,7 @@
   align-content: center;
   padding-top: 3%;
   font-family: Inria;
+  z-index: 2;
 }
 
 .Total-container > a {
@@ -22,11 +23,14 @@
   padding-top: 3%;
   color: white;
   text-align: center;
+  border-left: solid;
 }
 
 ul {
   list-style-type: none;
   font-size: 120%;
+  padding: 0;
+
 }
 
 .sub > p {
@@ -37,6 +41,10 @@ ul {
   font-size: 130%;
   width: 80%;
   border-radius: 40px;
+}
+
+.sub {
+  border: none;
 }
 
 .legal {
@@ -77,3 +85,11 @@ ul {
     font-size: 50%;
   }
 }
+
+@media only screen and (max-width: 744px) {
+  .item {
+    padding-left: 10%;
+  }
+
+}
+

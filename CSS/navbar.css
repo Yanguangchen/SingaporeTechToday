@@ -10,6 +10,7 @@
 .topnav {
   background-color: #040362 !important;
   overflow: hidden;
+  z-index: 2;
 }
 
 /*-------------Top Nav Links-------------*/
@@ -64,6 +65,7 @@
   background: #040362;
   justify-items: right;
   padding-bottom: 7%;
+  z-index: 2;
 }
 
 h1 {
@@ -117,7 +119,7 @@ h1 {
 
 .custom-navbar {
   background-color: #020148 !important;
-    z-index: 0;
+    z-index: 2;
 }
 
 .nav-item .nav-link {
