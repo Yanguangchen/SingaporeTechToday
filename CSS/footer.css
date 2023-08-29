@@ -8,7 +8,7 @@
   font-family: Inria;
 }
 
-.Total-container  > a {
+.Total-container > a {
   text-decoration: none;
 }
 
@@ -26,14 +26,16 @@
 
 ul {
   list-style-type: none;
+  font-size: 120%;
 }
 
 .sub > p {
+  margin-top: 10%;
   font-family: Inria;
   background: #faff00;
   color: black;
   font-size: 130%;
-  width: 90%;
+  width: 80%;
   border-radius: 40px;
 }
 
@@ -48,3 +50,30 @@ ul {
   width: 50%;
 }
 
+@media only screen and (max-width: 799px) {
+  .sub > p {
+    width: 150px;
+    font-size: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  ul {
+    list-style-type: none;
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 544px) {
+  .sub > p {
+    width: 80px;
+  }
+
+  .item {
+    padding-right: 20px;
+  }
+
+  .legal {
+    font-size: 50%;
+  }
+}
