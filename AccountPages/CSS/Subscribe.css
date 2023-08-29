@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   column-gap: 3%;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   justify-items: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -126,5 +126,134 @@ h2 {
   }
 }
 
-#form {
+@media only screen and (max-width: 1364px) {
+  #details {
+    font-size: 100%;
+  }
+
+  h2 {
+    font-size: 190%;
+  }
+}
+
+@media only screen and (max-width: 942px) {
+  h2 {
+    font-size: 170%;
+  }
+
+  .select {
+    font-size: 130%;
+  }
+
+  #details {
+    font-size: 100%;
+  }
+
+  #GPU {
+    display: none;
+  }
+
+  #AI {
+    display: none;
+  }
+
+  .grid-item {
+    height: 330px;
+  }
+
+
+}
+
+@media only screen and (max-width: 624px) {
+  h2 {
+    font-size: 150%;
+  }
+
+  #details {
+    font-size: 80%;
+  }
+
+  .select {
+    font-size: 130%;
+  }
+  .ProductDetails {
+    font-size: 80%;
+  }
+
+  #Product1,
+  #Product2,
+  #Product3 {
+    font-size: 130%;
+  }
+
+  .grid-item > p {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+  h2 {
+    font-size: 120%;
+  }
+
+  #details {
+    font-size: 60%;
+  }
+
+  .select {
+    font-size: 100%;
+  }
+  .ProductDetails {
+    font-size: 60%;
+  }
+
+  #Product1,
+  #Product2,
+  #Product3 {
+    font-size: 130%;
+  }
+
+  .grid-item > p {
+    font-size: 70%;
+  }
+
+  .grid-item {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 439px) {
+  h2 {
+    font-size: 100%;
+  }
+
+  #details {
+    font-size: 70%;
+    padding-bottom: 10%;
+  }
+
+  .select {
+    font-size: 100%;
+  }
+  .ProductDetails {
+    font-size: 60%;
+  }
+
+  #Product1,
+  #Product2,
+  #Product3 {
+    font-size: 130%;
+  }
+
+  .grid-item > p {
+    font-size: 70%;
+  }
+
+  .grid-item {
+    height: 270px;
+  }
+
+  .select {
+    font-size: 80%;
+  }
 }
