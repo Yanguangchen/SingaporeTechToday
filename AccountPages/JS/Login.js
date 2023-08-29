@@ -22,7 +22,7 @@ function CreateAcc() {
 
   //Loads Account Creation Form On Click
   var formHtml = `
-    <form action="/submit" method="post">
+    <form id="formID" action="/submit" method="post">
         <label for="username">1. Create Unsername:</label>
         <input type="text" id="username" name="username" required><br>
         <label for="password">2. Set yout password:</label>

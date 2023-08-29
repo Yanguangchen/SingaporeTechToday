@@ -17,13 +17,14 @@ a {
 
 .BreakingNews > p {
   text-align: left !important;
-  margin-left: 1%;
+  margin-left: 10%;
+  width: 1000%;
 }
 
 .BreakingNews {
   border-left: solid white 1px;
   padding-top: 1%;
-  width: 90%;
+  width: 9%;
 }
 
 .Live > p {
@@ -42,5 +43,34 @@ a {
   }
   100% {
     opacity: 0;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .BreakingNewsBanner {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .BreakingNewsBanner {
+    font-size: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 619px) {
+  .BreakingNewsBanner {
+    font-size: 60%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 462px) {
+  .BreakingNewsBanner {
+    font-size: 50%;
+    text-align: center;
+
   }
 }

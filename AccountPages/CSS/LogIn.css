@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -2;
   object-fit: cover;
 }
 
@@ -99,7 +99,7 @@ span.psw {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 0; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -166,5 +166,87 @@ span.psw {
   }
   .cancelbtn {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  #createAccount {
+    width: 100%;
+    height: 20%;
+  }
+
+  #id01 {
+    width: 100%;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .loginpage-container {
+    padding-bottom: 10%;
+  }
+
+  .loginPage {
+    background: white;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 729px) {
+  #createAccount {
+    font-size: 70%;
+  }
+
+  .loginpage-container {
+    height: 200%;
+  }
+
+  .loginpage-container {
+    padding-bottom: 20%;
+  }
+}
+@media screen and (max-width: 485px) {
+  .loginPage {
+    background: white;
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 22%;
+  }
+
+  #createAccount {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .loginpage-container {
+    padding-bottom: 25%;
+  }
+
+  #formID {
+    font-size: 50%;
+  }
+
+  #createAccount {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .loginpage-container {
+    padding-bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .loginpage-container {
+    padding-bottom: 50%;
   }
 }
