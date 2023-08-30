@@ -1,45 +1,41 @@
 #FintechTitle {
-    margin-left: 3.5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-
+  margin-left: 3.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 #FintechTitle > p {
-    font-family: Inria;
-    font-size: 300%
-    
+  font-family: Inria;
+  font-size: 300%;
 }
 
 .grid-container {
-	display: grid;
-	column-gap: 3%;
-    row-gap:100px;
-	grid-template-columns: auto auto auto;
-	justify-items: center;
-    padding-top: 0%;
-    text-decoration: none !important;
-	padding-left: 3%;
-	padding-right: 3%;
-	margin-bottom: 100px;
-
+  display: grid;
+  column-gap: 3%;
+  row-gap: 100px;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  padding-top: 0%;
+  text-decoration: none !important;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 100px;
 }
 
 .grid-container > a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 /*--------TITLE-----------------------------------*/
 
 .title {
-    color: #040362;
-    font-weight: bold;
-    padding-top: 2%;
-    padding-bottom: 3%;
+  color: #040362;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
 /*--------GRID-ITEM-----------------------------*/
-
 
 .grid-item1 > p,
 .grid-item2 > p,
@@ -47,12 +43,11 @@
 .grid-item4 > p,
 .grid-item5 > p,
 .grid-item6 > p {
-	font-family: Inria;
-	font-size: 130%;
-	padding-left: 2%;
-	overflow: none;
-    color: black;
-
+  font-family: Inria;
+  font-size: 130%;
+  padding-left: 2%;
+  overflow: none;
+  color: black;
 }
 
 .grid-item1,
@@ -60,12 +55,12 @@
 .grid-item3,
 .grid-item4,
 .grid-item5,
-.grid-item6  {
-      border: 1px solid #DCDCDC!important;
-      display: flex;
-      flex-direction: column; 
-      width: 100%;
-      height: 550px;
+.grid-item6 {
+  border: 1px solid #dcdcdc !important;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 550px;
 }
 
 /*----------------OBJECT FITTING IMAGE-----------*/
@@ -76,94 +71,103 @@
 .grid-item4 > img,
 .grid-item5 > img,
 .grid-item6 > img {
-	width: 100%;
-	height: 300px;
-	object-fit: cover; /* Ensures that images maintain aspect ratio and are cropped if necessary */
+  width: 100%;
+  height: 300px;
+  object-fit: cover; /* Ensures that images maintain aspect ratio and are cropped if necessary */
 }
 
-
-
-
-
-
 /*-------------------MEDIA QUERIES RESPONSIVE CSS-----------*/
-    
+
 /*---------------TEXT RESIZING-----------------*/
 
-@media only screen and (max-width: 1020px) { /*----------1020px---------*/
+@media only screen and (max-width: 1020px) {
+  /*----------1020px---------*/
   .grid-item1 > p,
   .grid-item2 > p,
   .grid-item3 > p,
   .grid-item4 > p,
   .grid-item5 > p,
-  .grid-item6 > p{
-      font-size: 18px
+  .grid-item6 > p {
+    font-size: 18px;
   }
-    
-    
-    #FintechTitle > p {
-    font-size: 280%
-    
+
+  #FintechTitle > p {
+    font-size: 280%;
+  }
 }
-}
-    
-    
+
 @media only screen and (max-width: 798px) {
   .grid-item1 > p,
   .grid-item2 > p,
   .grid-item3 > p,
   .grid-item4 > p,
   .grid-item5 > p,
-  .grid-item6 > p{
-      font-size: 14px
+  .grid-item6 > p {
+    font-size: 14px;
   }
-    
-    #FintechTitle > p {
-    font-family: Inria;
-    font-size: 250%
-    
-}
-	}
 
-    
+  #FintechTitle > p {
+    font-family: Inria;
+    font-size: 250%;
+  }
+}
+
 /*---------------IMAGE RESIZING-----------------*/
-@media only screen and (max-width: 799px) {/*------799PX-------*/
+@media only screen and (max-width: 799px) {
+  /*------799PX-------*/
   .grid-item1 > img,
   .grid-item2 > img,
   .grid-item3 > img,
   .grid-item4 > img,
   .grid-item5 > img,
   .grid-item6 > img {
-      
     width: 100%;
-	height: auto;
-	object-fit: cover;
- 
+    height: auto;
+    object-fit: cover;
   }
 }
 
 /*-------------REIZE CONTAINER SIZE-----------*/
-@media only screen and (max-width: 799px) { 
+@media only screen and (max-width: 799px) {
   .grid-item1,
   .grid-item2,
   .grid-item3,
   .grid-item4,
   .grid-item5,
   .grid-item6 {
-      width: 100%;
-      height: auto
+    width: 100%;
+    height: auto;
   }
-
 }
 @media only screen and (max-width: 788px) {
-.grid-container {
+  .grid-container {
     row-gap: 5%;
     margin-bottom: 200px;
+  }
+
+  #FintechTitle > p {
+    font-family: Inria;
+    font-size: 200%;
+  }
+}
+
+
+/*----------------IPHONE 12-------------------*/
+@media only screen and (max-width: 390px) {
+    .grid-container {
+      row-gap: 5%;
+      margin-bottom: 200px;
     }
-    
-#FintechTitle > p {
-     font-family: Inria;
-    font-size: 200%
-    
-}
-}
+
+    .grid-item1 > p, 
+    .grid-item2 > p, 
+    .grid-item3 > p, 
+    .grid-item4 > p, 
+    .grid-item5 > p, 
+    .grid-item6 > p {
+        font-size: 11px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+  }
