@@ -257,3 +257,14 @@ h2 {
     font-size: 80%;
   }
 }
+
+/*-------IPHONE 12-------------*/
+@media only screen and (max-width: 390px) {
+
+  #details {
+    font-size: 90%;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+} 
