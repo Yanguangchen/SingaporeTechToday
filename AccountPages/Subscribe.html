@@ -17,9 +17,6 @@
     <!------------SUBSCRIBE.CSS----------------------------------->
     <link rel="stylesheet" href="CSS/Subscribe.css" />
 
-    <!------------SUBSCRIBE. JS----------------------------------->
-    <script src="JS/Subscribe.js"></script>
-
     <!------------SCROLLBAR CSS------------------------------->
     <link rel="stylesheet" href="../CSS/scrollbar.css" />
     <link rel="stylesheet" href="../Articles/CSS/blinker.css" />
@@ -41,9 +38,9 @@
   <body>
     <!-----------------------------NAVIGATION BAR------------------------------------>
     <div class="topnav">
-      <a class="active" href="Login.html">Sign in</a>
+      <a class="active" href="LogIn.html">Sign in</a>
       <a href="#">Search</a>
-      <a href="#">Subscribe</a>
+      <a href="Subscribe.html">Subscribe</a>
     </div>
 
     <div id="banner">
@@ -79,7 +76,7 @@
               <a
                 class="nav-link active text-light navbar-font-Inria"
                 aria-current="page"
-                href="../index.html"
+                href="index.html"
                 >Home</a
               >
             </li>
@@ -89,7 +86,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light navbar-font-Inria"
-                href="../Fintech.html"
+                href="Fintech.html"
                 >Fintech</a
               >
             </li>
@@ -99,7 +96,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light navbar-font-Inria"
-                href="../Artificial%20Intelligence.html"
+                href="Artificial%20Intelligence.html"
                 >Artificial Intelligence</a
               >
             </li>
@@ -108,7 +105,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light navbar-font-Inria"
-                href="../Reviews.html"
+                href="Reviews.html"
                 >Reviews</a
               >
             </li>
@@ -123,6 +120,7 @@
                 data-bs-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                S
                 >More</a
               >
 
@@ -134,8 +132,7 @@
                 <a class="dropdown-item" href="Subscribe.html"
                   >Subscribe today</a
                 >
-                <a class="dropdown-item" href="#">Careers</a>
-                <a class="dropdown-item" href="#">FAQ</a>
+                <a class="dropdown-item" href="LogIn.html">Sign</a>
               </div>
             </div>
           </ul>
@@ -205,20 +202,44 @@
       </div>
 
       <!-----------------ACCORDION FAQ------------------->
-      <button class="accordion">Section 1</button>
-      <div class="panel">
-        <p>Lorem ipsum...</p>
+
+      <div class="FAQ-container">
+        <div class="accordianFAQ">
+          <h3>Frequently Asked Questions</h3>
+          <button class="accordion">Privacy Policy</button>
+          <div class="panel">
+            <p>Our site uses cookies to enhance your user experience. Cookies are small text files stored on your computer to remember your preferences.</p>
+            <p>To Provide Services
+              We use your information to process transactions, deliver products, and offer customer support.
+              
+              To Improve Our Services
+              We analyze user behavior to improve our website's user interface and functionalities.
+              
+              To Communicate
+              We use your information to communicate about new features, promotions, and updates.</p>
+          </div>
+
+          <button class="accordion">Terms of Service</button>
+          <div class="panel">
+            <p>Personal Information
+              When you visit Singapore Tech Today, you may be asked to provide personal information such as your name, email address, and date of birth.
+              
+              Non-Personal Information
+              We also collect non-personal information like browser type, operating system, and the pages you visit on our site.</p>
+          </div>
+
+          <button class="accordion">Disclaimer liability</button>
+          <div class="panel">
+            <p>To the fullest extent permitted by applicable law, Singapore Tech Today shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
+
+              Your use or inability to use Singapore Tech Today;
+              Any unauthorized access to or use of our servers and/or any personal information stored therein.</p>
+          </div>
+        </div>
       </div>
 
-      <button class="accordion">Section 2</button>
-      <div class="panel">
-        <p>Lorem ipsum...</p>
-      </div>
-
-      <button class="accordion">Section 3</button>
-      <div class="panel">
-        <p>Lorem ipsum...</p>
-      </div>
+      <!------------SUBSCRIBE. JS----------------------------------->
+      <script src="JS/Subscribe.js"></script>
 
       <!-----------------------FOOTER----------------------------------------->
 
