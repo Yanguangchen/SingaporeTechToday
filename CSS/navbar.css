@@ -183,7 +183,7 @@ h1 {
 
 .navbar-font-Inria {
   font-family: Inria serif;
-  font-size: 100%;
+  font-size: 120%;
   font-weight: 100;
 }
 
@@ -191,8 +191,10 @@ h1 {
 
 @media screen and (max-width: 1440px) {
   .navbar-font-Inria {
-    font-size: 100%;
+    font-size: 120%;
     text-align: center;
+    padding-left: 0;
+    padding-right: 3%;
   }
 }
 
@@ -200,19 +202,18 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .navbar-font-Inria {
-    font-size: 100%;
+    font-size: 120%;
     text-align: center;
   }
 }
 
-/*----------------Iphone SE------------------------------*/
+/*----------------Iphone 12------------------------------*/
 
-@media screen and (max-width: 378px) {
+@media screen and (max-width: 390px) {
   .navbar-font-Inria {
-    font-size: 85%;
+    font-size: 120%;
     text-align: center;
   }
-}
 
 #test > p {
   height: 3000px;
@@ -226,3 +227,6 @@ a {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   text-decoration: none;
 }
+
+}
+
