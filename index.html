@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="CSS/mainArticle.css" />
 
     <!------------STOCKTICKER--------------------------------->
-    <scrip src="JS/StockTicker.js"></scrip>
+    <script src="JS/StockTicker.js"></script>
     <link rel="stylesheet" href="CSS/StockTicker.css" />
 
     <!------------SCROLLBAR CSS------------------------------->
@@ -36,6 +36,15 @@
     <!------------F A V E I C O N---------------------------->
     <link rel="icon" href="Images/faveicon.png" type="image/x-icon" /></head
   ><!----------------------------------------------------->
+
+   <!-- M U S T A C H E   JS -->
+<script src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.min.js"></script>
+
+<!-- JAVASCRIPT FOR TEMPLATING IN MUSTACHE -->
+<script src="JS/Templating.js"></script>
+
+  
+
 
   <body>
     <!-----------------------------NAVIGATION BAR------------------------------------>
@@ -165,13 +174,10 @@
           <div class="breakingNews">
             <h2>Breaking News</h2>
             <p>
-              "Microsoft Shares Plummet 30% in Unexpected Downturn: Investors
-              and Analysts Left Stunned"
+              {{HeadlinesBreakingNews}}
             </p>
             <p>
-              Microsoft's fictional new CEO, Jane Doe, announced a hypothetical
-              strategy shift that would see the company abandon its
-              well-established cloud computing
+              {{BreakingNewsDetails}}
             </p>
           </div>
         </a>
@@ -187,8 +193,7 @@
             <div class="SideItem">
               <img src="Images/BTC.jpg" />
               <p>
-                Bitcoin spot Exchange Traded Funds (ETF) by Blackrock finally
-                gets accepted by the SEC after a long battle
+                {{sideContainer}}
               </p>
             </div>
           </a>
@@ -202,7 +207,7 @@
         <a href="Articles/BreakingNews.html">
           <div class="grid-item1">
             <img src="Images/QC.jpg" />
-            <p class="title">Quantum Computing</p>
+            <p class="title">{{title1}}</p>
             <p>
               Quantum CPU may soon beintegrated into everyday household
               computers says IBM
@@ -213,7 +218,7 @@
         <a href="Articles/BreakingNews.html">
         <div class="grid-item2">
           <img src="Images/google.jpg" />
-          <p class="title">Artificial Intelligence</p>
+          <p class="title">{{title2}}</p>
           <p>Bard AI vs Chatgpt, which generative AI will reignsupreme</p>
         </div>
       </a>
@@ -223,7 +228,7 @@
       <a href="Articles/BreakingNews.html">
         <div class="grid-item3">
           <img src="Images/iphone.jpg" />
-          <p class="title">Gadgets</p>
+          <p class="title">{{title3}}</p>
           <p>
             Why Iphones sales are sluggish suggest lack of new features and high
             price tag
@@ -234,7 +239,7 @@
       <a href="Articles/BreakingNews.html">
         <div class="grid-item4">
           <img src="Images/Servers.jpg" />
-          <p class="title">Commentary</p>
+          <p class="title">{{title4}}</p>
           <p>
             Microsoft Azure vs Amazon AWS, which has the best price to
             performance ratio?
@@ -245,7 +250,7 @@
       <a href="Articles/BreakingNews.html">
         <div class="grid-item5">
           <img src="Images/Data%20Centre.jpg" />
-          <p class="title">Networking</p>
+          <p class="title">{{title5}}</p>
           <p>
             How will the newSEA-ME-WE3 deep sea internet cable disruption impact
             globalnetwork infrastructure
@@ -258,7 +263,7 @@
 
         <div class="grid-item6">
           <img src="Images/GPU.jpg" />
-          <p class="title">Gadgets</p>
+          <p class="title">{{title6}}</p>
           <p>
             RTX 4090 Bringing game changing ray trace performance to the game?
             or a fast cash grab?

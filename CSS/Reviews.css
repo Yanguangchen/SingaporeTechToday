@@ -76,10 +76,6 @@
   object-fit: cover; /* Ensures that images maintain aspect ratio and are cropped if necessary */
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
 
 /*-------------------MEDIA QUERIES RESPONSIVE CSS-----------*/
 
