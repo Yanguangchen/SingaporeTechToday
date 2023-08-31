@@ -344,5 +344,13 @@ h3 {
     padding-left: 7px;
     padding-right: 7px;
   }
+
+  .select {
+    font-size: 110%;
+  }
+
+  .panel {
+    font-size: 90%;
+  }
 }
 

@@ -62,14 +62,14 @@ a {
 
 @media only screen and (max-width: 619px) {
   .BreakingNewsBanner {
-    font-size: 60%;
+    font-size: 75%;
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 462px) {
   .BreakingNewsBanner {
-    font-size: 50%;
+    font-size: 70%;
     text-align: center;
 
   }
