@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!------------------------------------------------------>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Singapore Tech Today</title>
+
+    <!------------B O O T S T R A P   C S S------------------->
+    <link rel="stylesheet" href="./Bootstrap_CSS/bootstrap.min.css" />
+
+    <!------------NAV BAR CSS--------------------------------->
+    <link rel="stylesheet" href="CSS/navbar.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+
+    <!------------REPORT.CSS------------------------------->
+    <link rel="stylesheet" href="CSS/report.css" />
+
+    <!------------SCROLLBAR CSS------------------------------->
+    <link rel="stylesheet" href="CSS/scrollbar.css" />
+
+    <!------------B O O T S T R A P   JQUERY----------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!------------P O P P E R         JS-------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+
+    <!------------B O O T S T R A P   JS--------------------->
+    <script src="./Bootstrap_Js/bootstrap.js"></script>
+
+    <!------------F A V E I C O N---------------------------->
+    <link rel="icon" href="Images/faveicon.png" type="image/x-icon" /></head
+  ><!----------------------------------------------------->
+
+  <body>
+    <!-----------------------------NAVIGATION BAR------------------------------------>
+    <div class="topnav">
+      <a class="active" href="AccountPages/LogIn.html">Sign in</a>
+      <a href="#">Search</a>
+      <a href="AccountPages/Subscribe.html">Subscribe</a>
+    </div>
+
+    <div id="banner">
+      <a href="index.html">
+        <h1>
+          Singapore
+          <br />
+          Tech Today
+        </h1>
+      </a>
+    </div>
+
+    <nav
+      class="navbar custom-navbar text-light data-bs-theme navbar-expand-lg bg-body-tertiary navbar-dark sticky-top hide-scrollbar"
+    >
+      <div class="container-fluid justify-content-center">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-toggle"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-------Breaking News----------->
+
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light navbar-font-Inria"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <!-------FINTECH----------------->
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-light navbar-font-Inria"
+                href="Fintech.html"
+                >Fintech</a
+              >
+            </li>
+
+            <!-------A.I---------------------->
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-light navbar-font-Inria"
+                href="Fintech.html"
+                >Artificial Intelligence</a
+              >
+            </li>
+
+            <!-------REVIEWS---------------------->
+            <li class="nav-item">
+              <a
+                class="nav-link text-light navbar-font-Inria"
+                href="Fintech.html"
+                >Reviews</a
+              >
+            </li>
+
+            <!-------MORE DROPDOWN BUTTON------->
+            <div class="dropdown btn-bg-transparent">
+              <a
+                class="btn btn-secondary dropdown-toggle transparent-bg navbar-font-Inria"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                S
+                >More</a
+              >
+
+              <!-----DROPDOWN ELEMENTS------------>
+              <div
+                class="navbar-font-Inria dropdown-menu"
+                aria-labelledby="dropdownMenuLink"
+              >
+                <a class="dropdown-item" href="AccountPages/Subscribe.html"
+                  >Subscribe today</a
+                >
+                <a class="dropdown-item" href="AccountPages/LogIn.html">Sign</a>
+                <a class="dropdown-item" href="report.html">Report.html</a>
+              </div>
+            </div>
+          </ul>
+          <!---------------End of all navbar buttons------------------>
+        </div>
+      </div>
+    </nav>
+    <!---------END OF NAVBAR------------------------------------------------>
+
+    <div class="body-container">
+      <div class="headcontainer">
+        <h2>Web Development Report.html</h2>
+        <p>Written by Chen Yanguang</p>
+      </div>
+
+      <div class="Introduction">
+        <h3><strong>Introduction:</strong></h3>
+        <p>
+          My project: Singapore Tech Today, STT, aims to be the forefront of
+          newsreporting, independant Journalism on everything regarding
+          Technology, and are targeted towards <br />
+          the Singaporean Tech savvy community <br />
+          Singapore Tech Today has 4 main area of focuses as seen on the
+          navigation bar <br /><br>
+          <strong>Fintech, Artificial Intelligence and Reviews</strong>
+        </p>
+        <div class="intro-image">
+          <img src="Images/introcontainerBanner.png" />
+        </div>
+
+        <div class="Intro-list">
+
+        <ul>
+          <li><strong>Fintech</strong>
+          <p>
+            Fintech focuses on financial related technologies like Web3,
+            Blockchain, Tech companies
+          </p>
+          </li>
+
+          <br>
+
+          <li><strong>Artificial Intelligence</strong>
+          <p>
+            Artificial Intelligence focus on topics like generative AI, Natural
+            Language processing, Neural networks and Machine Learning
+          </p>
+          </li>
+
+          <br/>
+
+          <li><strong>Reviews</strong>
+          <p>
+            Reviews focuses on lifestyle, tech gadgets and accessory reviews
+          </p>
+          </li>
+
+        </ul>
+        </div>
+
+          <p id="Logo-banner">Singapore Tech <br> Today</p>
+
+        <div class="wireframe-container">
+          <h4>Wireframe Design</h4>
+
+          <div class="wireframeImage">
+              <div class="wireframeItem">
+                <p><strong>Low Fidelity Wireframe</strong></p>
+              </div>
+
+              <div class="wireframeItem">
+                <p><strong>High Fidelity Wireframe</strong></p>
+              </div>
+          </div>
+        </div>
+        <h5>Design Philosophy</h5>
+
+      <div class="grid-UX">
+
+        <div class="UI">
+          <p class="DesignTitle"><strong>User Interface</strong></p>
+          <p>Inspired by British Newsletter publisher - the guardian, Singapore Tech Today's user Interface feature a vast array of content while retaining form, factor and recheablity</p>
+
+          <p class="DesignItem"><strong>ACCESIBILITY</strong></p>
+          <p>elements such as the taskbar, footer and itemized containers makes for easy viewing, navigation and mobile reachability</p>
+
+          <p class="DesignItem"><strong>RESPONSIVENESS</strong></p>
+          <p>Site was designed with multiple screen sizes in mind, never will a element be overflowed, missing or juttering out of its container at any screen size</p>
+        </div>
+
+        <div class="UX">
+
+          <p class="DesignTitle">
+          <strong>User Experience</strong>
+          </p>
+
+          <p>Inspired by British Newsletter publisher - the guardian, Singapore Tech Today's user experience feature a vast array of content whilst avoiding overcluttering of on screen elements and objects</p>
+          
+          <p class="DesignItem"><strong>COLOUR</strong></p>
+
+          <p>The deep blue #040362 as the main colour of the Newsletter provide a sense of security and reliability, letting our readers know that the content can be trusted, vetted and reliable </p>
+          
+          <p class="DesignItem"><strong>SIMPLE AND ROBUST TYPEFACE</strong></p>
+          <p>STT's feature a a typeface that is a cousin to new times roman: Inria, a sense of prestige and elegance. The lack of necessity to implement alternate fonts as new times roman, default html font closely resembles Inria: this reduces code maintanibility retains portability</p>
+
+
+          </div>
+
+      </div>
+      </div>
+    </div>
+
+      <!-----------------------FOOTER----------------------------------------->
+
+      <footer>
+        <div class="Total-container">
+          <div class="footer-container">
+            <div class="logo">
+              <img src="Images/Logo.png" />
+            </div>
+
+            <a href="AccountPages/Subscribe.html">
+              <div class="sub item">
+                <p>Subscribe</p>
+              </div>
+            </a>
+
+            <div class="item">
+              <ul>
+                <a href="index.html">
+                  <li>Home</li>
+                </a>
+
+                <a href="Fintech.html">
+                  <li>AI</li>
+                </a>
+
+                <a href="Fintech.html">
+                  <li>Reviews</li>
+                </a>
+              </ul>
+            </div>
+
+            <div class="item">
+              <ul>
+                <a href="AccountPages/Subscribe.html">
+                  <li>Privacy Policy</li>
+                  <li>Log In</li>
+                  <li>About us</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="legal">
+            <p>Copyright Singapore Tech Today 2023</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

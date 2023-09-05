@@ -1,0 +1,125 @@
+.body-container {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.headcontainer {
+    color: #040362;
+    text-align: center;
+    padding-top: 3%;
+    border: solid 1px gray;
+}
+
+.Introduction {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.intro-image {
+    scale: 0.3;
+    opacity: 0.3;
+    padding-left: 8%;
+    border: 1px black;
+}
+
+.Intro-list {
+    border-top: 1px black;
+    border-bottom: 1px black;
+    margin-bottom: 5%;
+}
+
+.Intro-list > ul {
+    list-style-type none;
+    font-size: 120%;
+    padding: 0;
+    border: solid 1px #bebebe;
+}
+
+.wireframeImage {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: solid 1px #bebebe;
+    column-gap: 0;
+}
+
+.wireframeItem {
+    border-left: 1px #bebebe;
+}
+
+.wireframeItem>p {
+    padding-top: 3%;
+}
+
+h4,
+h5 {
+    padding-top: 10%;
+    font-size: 270%;
+}
+
+.grid-UX {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-color: black;
+    column-gap: 3%;
+}
+
+.UX {
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: solid 1px #bebebe;
+}
+
+.UI {
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: solid 1px #bebebe;
+}
+
+.DesignTitle {
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+.DesignItem {
+    padding-top: 4%;
+}
+
+#VideoBanner {
+    z-index: -1;
+}
+
+#Logo-banner {
+    z-index: 1;
+    color: #faff00;
+    font-size: 300%;
+    font-family: Inria;
+    width: 30%;
+    margin: auto;
+    background-color: #040362;
+    border-style: solid;
+    border-color: #040362;
+    border-radius: 0;
+    animation: Logo-banner 8s infinite;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@keyframes Logo-banner {
+    0% {
+        border-radius: 0;
+        width: 30%
+    }
+
+    50% {
+        border-radius: 300px;
+        width: 100%;
+
+    }
+    100% {
+        border-radius: 0;
+        width: 30%;
+    }
+}
