@@ -39,22 +39,45 @@
 .wireframeImage {
     display: grid;
     grid-template-columns: auto auto;
-    border: solid 1px #bebebe;
-    column-gap: 0;
+    column-gap: 2%;
 }
 
 .wireframeItem {
-    border-left: 1px #bebebe;
+    border: solid 1px #bebebe;
+    text-decoration: underline;
+    font-size: 150%;
 }
 
-.wireframeItem>p {
+.wireframeItem > p {
     padding-top: 3%;
 }
 
-h4,
-h5 {
+h4 {
     padding-top: 10%;
     font-size: 270%;
+}
+
+h7 {
+    padding-top: 10%;
+    font-size: 270%;
+}
+
+h5 {
+    padding-top: 5%;
+    font-size: 270%;
+    padding-bottom: 3%;
+}
+
+h6 {
+    padding-top: 2%;
+    font-size: 270%;
+    padding-bottom: 3%;
+}
+
+h7 {
+    padding-top: 2%;
+    font-size: 270%;
+    padding-bottom: 3%;
 }
 
 .grid-UX {
@@ -107,6 +130,33 @@ h5 {
     padding-bottom: 2%;
 }
 
+.Usability {
+    border: solid 1px #bebebe;
+    margin-top: 5%;
+}
+.Inspiration {
+    border: solid 1px #bebebe;
+    margin-top: 3%;
+}
+
+h8 {
+    font-size: 200%;
+    padding-top: 3%;
+    margin-bottom: 5%;
+}
+
+.Learning {
+    border: solid 1px #bebebe;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Evaluation1 {
+    border: solid 1px #bebebe;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 @keyframes Logo-banner {
     0% {
         border-radius: 0;
@@ -122,4 +172,44 @@ h5 {
         border-radius: 0;
         width: 30%;
     }
+}
+
+.Resources {
+    border: solid 1px #bebebe;
+    margin-left: 20%;;
+    width: 60%;
+}
+
+h9 {
+    font-size: 200%;
+    padding-top: 3%;
+    padding-left: 8%;
+}
+
+.Resources > ol {
+    padding-left: 10%;
+}
+
+.Resources a {
+    text-decoration: underline;
+    color: blue;4
+}
+
+.References {
+    border: solid 1px #bebebe;
+    text-align: center;
+    width: 100%;
+}
+
+.References a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.References  li {
+        border: solid 1px #bebebe;
+        list-style-type: none;
+        margin-top: 3%;
+        margin-right: 5%;
+        margin-left: 5%;
 }
