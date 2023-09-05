@@ -30,31 +30,16 @@
 }
 
 .Intro-list > ul {
-    list-style-type none;
+    list-style-type: none;
     font-size: 120%;
     padding: 0;
     border: solid 1px #bebebe;
 }
 
-.wireframeImage {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 2%;
-}
-
-.wireframeItem {
-    border: solid 1px #bebebe;
-    text-decoration: underline;
-    font-size: 150%;
-}
-
-.wireframeItem > p {
-    padding-top: 3%;
-}
-
 h4 {
     padding-top: 10%;
     font-size: 270%;
+    margin-bottom: 5%;
 }
 
 h7 {
@@ -100,6 +85,39 @@ h7 {
     padding-right: 2%;
     border: solid 1px #bebebe;
 }
+
+#colortitle {
+    font-size: 200%;
+    padding-top: 5%;;
+}
+
+.color {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+#yellow {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #faff00;
+    color: black;
+    border: solid 1px black;
+    border-radius: 200px;
+}
+
+#blue {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #040362;
+    color:white;
+    border: solid 1px black;
+    border-radius: 200px;
+}
+
 
 .DesignTitle {
     font-size: 200%;
@@ -183,7 +201,6 @@ h8 {
 h9 {
     font-size: 200%;
     padding-top: 3%;
-    padding-left: 8%;
 }
 
 .Resources > ol {
@@ -192,10 +209,11 @@ h9 {
 
 .Resources a {
     text-decoration: underline;
-    color: blue;4
+    color: blue;
 }
 
 .References {
+    margin-top: 5%;
     border: solid 1px #bebebe;
     text-align: center;
     width: 100%;
@@ -210,6 +228,15 @@ h9 {
         border: solid 1px #bebebe;
         list-style-type: none;
         margin-top: 3%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 20%;
+        margin-left: 20%;
+}
+
+
+.wireframeItem {
+    border: solid 1px #bebebe;
+}
+.wireframeImage > p {
+    text-align: center;
+    font-size: 100%;
 }
