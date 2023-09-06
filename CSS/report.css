@@ -199,8 +199,10 @@ h8 {
 }
 
 h9 {
+    text-align: center;
     font-size: 200%;
     padding-top: 3%;
+    padding-left: 10%;
 }
 
 .Resources > ol {
@@ -232,6 +234,9 @@ h9 {
         margin-left: 20%;
 }
 
+.wireframe-container {
+    border: solid 1px #bebebe;
+}
 
 .wireframeItem {
     border: solid 1px #bebebe;
@@ -239,4 +244,16 @@ h9 {
 .wireframeImage > p {
     text-align: center;
     font-size: 100%;
+}
+
+h11 {
+    font-size: 200%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Evaluation2 {
+    text-align: center;
+    margin-top: 2%;
+    border: solid 1px #bebebe;
 }
