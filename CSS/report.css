@@ -37,7 +37,7 @@
 }
 
 h4 {
-    padding-top: 10%;
+    padding-top: 3%;
     font-size: 270%;
     margin-bottom: 5%;
 }
@@ -256,4 +256,35 @@ h11 {
     text-align: center;
     margin-top: 2%;
     border: solid 1px #bebebe;
+    list-style-type: none;
+}
+
+.Evaluation2 ol {
+    margin-top: 3%;
+}
+
+.example {
+    display: grid;
+    grid-template-columns:auto auto;
+    column-gap: 3%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.exp1, .exp2 {
+    text-align: left;
+    background: black;
+    font-family: monospace;
+    color: greenyellow;
+    padding: 5%;
+}
+
+.sitemap {
+    text-align: center;
+    font-size: 200%;
+}
+
+.alternate {
+    margin-left: 20%;
+    margin-bottom: 5%;
 }
