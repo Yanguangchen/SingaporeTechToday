@@ -36,6 +36,19 @@
   width: 78%;
   height: 500px;
 }
+@media only screen and (min-width: 1600px) {
+  .grid-item2
+  {
+   border: 1px solid #dcdcdc !important;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   width: 90%;
+   height: 500px;
+ }
+  
+}
+
 
 .grid-item1 > p,
 .grid-item2 > p,

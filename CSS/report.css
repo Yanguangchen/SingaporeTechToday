@@ -284,6 +284,16 @@ h11 {
     font-size: 200%;
 }
 
+.Mockup {
+    text-align: center;
+    font-size:  300%;
+    border: solid 1px #bebebe;
+}
+
+.Mockup > img {
+    width: 70%;
+}
+
 .alternate {
     margin-left: 20%;
     margin-bottom: 5%;
