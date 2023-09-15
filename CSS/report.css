@@ -70,20 +70,31 @@ h7 {
     grid-template-columns: auto auto;
     border-color: black;
     column-gap: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .UX {
     padding-top: 3%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     border: solid 1px #bebebe;
 }
 
 .UI {
     padding-top: 3%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     border: solid 1px #bebebe;
+}
+
+.tech {
+margin-top: 3%;
+border: solid 1px #bebebe;
+width: 50%;
+margin-left: 25%;
+padding-left: 5%;
+padding-right: 5%;
 }
 
 #colortitle {
@@ -151,10 +162,14 @@ h7 {
 .Usability {
     border: solid 1px #bebebe;
     margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .Inspiration {
     border: solid 1px #bebebe;
     margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 h8 {
@@ -167,12 +182,16 @@ h8 {
     border: solid 1px #bebebe;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left:  10%;
+    padding-right: 10%;
 }
 
 .Evaluation1 {
     border: solid 1px #bebebe;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @keyframes Logo-banner {
@@ -202,7 +221,6 @@ h9 {
     text-align: center;
     font-size: 200%;
     padding-top: 3%;
-    padding-left: 10%;
 }
 
 .Resources > ol {
@@ -257,10 +275,13 @@ h11 {
     margin-top: 2%;
     border: solid 1px #bebebe;
     list-style-type: none;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .Evaluation2 ol {
     margin-top: 3%;
+    list-style-type: none;
 }
 
 .example {
