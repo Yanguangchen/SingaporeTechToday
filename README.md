@@ -27,3 +27,10 @@ This is a web development project for school
 
 - [@Yanguangchen](https://github.com/Yanguangchen)
 
+
+
+## Logo
+
+![Logo](https://github.com/Yanguangchen/SingaporeTechToday/blob/main/Images/faveicon.png?raw=true)
+
+
